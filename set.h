@@ -29,6 +29,7 @@ class set{
         }
        
         void resize(int SIZE);
+        bool isCommon(set<BaseData>& SECOND,int j);
 
          
         set<BaseData> operator && (set<BaseData>& SECOND);  
